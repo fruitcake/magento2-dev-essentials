@@ -20,6 +20,11 @@
     "symfony/var-dumper": "*",
     "yireo/magento2-whoops": "^0.0.9"
   },
+  "autoload": {
+    "files": [
+      "functions.php"
+    ]
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
