@@ -1,0 +1,30 @@
+{
+  "name": "fruitcake/magento2-dev-essentials",
+  "description": "Magento2 Dev Essentials.",
+  "keywords": [
+    "magento",
+    "magento2"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Fruitcake",
+      "email": "info@fruitcake.nl"
+    }
+  ],
+  "require": {
+    "php": "^7",
+    "magento/framework": "~101.0",
+    "symfony/var-dumper": "*",
+    "yireo/magento2-whoops": "^0.0.9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
